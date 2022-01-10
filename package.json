@@ -1,6 +1,9 @@
 {
   "name": "kreta-cx",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.x"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -24,7 +27,6 @@
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "react-swipeable-views": "^0.14.0",
     "tinycolor2": "^1.4.2"
   },
   "scripts": {
