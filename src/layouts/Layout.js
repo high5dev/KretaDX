@@ -36,7 +36,11 @@ export default function PermanentDrawerLeft() {
         sx={{ flexGrow: 1, bgcolor: "background.default", p: 0 }}
       >
         <Routes>
-          <Route exact path="/" element={<Navigate to="/dashboard" />} />
+          <Route
+            exact
+            path="/"
+            element={<Navigate to="/dashboard" replace />}
+          />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/timetracking" element={<TimeTracking />} />
           <Route path="/system" element={<System />} />

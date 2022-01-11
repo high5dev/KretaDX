@@ -72,7 +72,7 @@ function Aside() {
               button
               component={Link}
               to={menu.to}
-              className={pathname == menu.to ? classes.active : ""}
+              className={pathname === menu.to ? classes.active : ""}
             >
               <ListItemIcon>{menu.icon}</ListItemIcon>
               <ListItemText
