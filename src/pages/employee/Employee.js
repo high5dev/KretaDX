@@ -14,25 +14,34 @@ import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import HeatmapChart from "../../components/HeatmapChart";
 import BarChart from "../../components/BarChart";
-import DataTable from "../../components/DataTable";
 import Profile from "../../components/Profile";
 import { useParams } from "react-router";
-import LaptopChromebookIcon from "@mui/icons-material/LaptopChromebook";
-import ListIcon from "@mui/icons-material/List";
-import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import PhotoIcon from "@mui/icons-material/Photo";
-import EmailIcon from "@mui/icons-material/Email";
-import FileCopyIcon from "@mui/icons-material/FileCopy";
-import VideocamIcon from "@mui/icons-material/Videocam";
-import PrintIcon from "@mui/icons-material/Print";
-import KeyboardIcon from "@mui/icons-material/Keyboard";
+import {
+  LaptopChromebook,
+  AccessTimeFilled,
+  Notifications,
+  Email,
+  FileCopy,
+  Videocam,
+  Keyboard,
+  List,
+  Photo,
+} from "@mui/icons-material";
+import MUIDataTable from "mui-datatables";
+import { shallowEqual, useSelector, useDispatch } from "react-redux";
+import * as actions from "./employeeActions";
 
-export default function Employee(props) {
+export default function Employee() {
   const { id } = useParams();
+  const dispatch = useDispatch();
+  const entities = useSelector(
+    ({ employee }) => employee.entities,
+    shallowEqual
+  );
+
   useEffect(() => {
-    console.log("id", id);
-  });
+    dispatch(actions.fetchData());
+  }, [dispatch]);
 
   const [value, setValue] = React.useState("1");
 
@@ -59,63 +68,63 @@ export default function Employee(props) {
             >
               <Tab
                 iconPosition="start"
-                icon={<LaptopChromebookIcon />}
+                icon={<LaptopChromebook />}
                 label="activity log"
                 value="1"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<ListIcon />}
+                icon={<List />}
                 label="sessions log"
                 value="2"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<AccessTimeFilledIcon />}
+                icon={<AccessTimeFilled />}
                 label="time worked"
                 value="3"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<NotificationsIcon />}
+                icon={<Notifications />}
                 label="alerts"
                 value="4"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<PhotoIcon />}
+                icon={<Photo />}
                 label="snapshots"
                 value="5"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<EmailIcon />}
+                icon={<Email />}
                 label="emails"
                 value="6"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<FileCopyIcon />}
+                icon={<FileCopy />}
                 label="file transfers"
                 value="7"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<VideocamIcon />}
+                icon={<Videocam />}
                 label="online meetings"
                 value="8"
                 sx={{ py: 0, fontSize: 12 }}
               />
               <Tab
                 iconPosition="start"
-                icon={<KeyboardIcon />}
+                icon={<Keyboard />}
                 label="keystrokes"
                 value="9"
                 sx={{ py: 0, fontSize: 12 }}
@@ -155,33 +164,68 @@ export default function Employee(props) {
                   </Grid>
                 </Grid>
                 <Grid item xs={12} sx={{ mt: 2 }}>
-                  <DataTable />
+                  <MUIDataTable
+                    data={entities}
+                    columns={[
+                      {
+                        label: "Date / Time",
+                        name: "datetime",
+                      },
+                      {
+                        label: "Computer",
+                        name: "computer",
+                      },
+                      {
+                        label: "Process / URL",
+                        name: "url",
+                      },
+                      {
+                        label: "Duration",
+                        name: "duration",
+                      },
+                      {
+                        label: "App / Webpage",
+                        name: "webpage",
+                      },
+                    ]}
+                    options={{
+                      filter: false,
+                      selectableRowsHideCheckboxes: true,
+                      selectableRowsHeader: false,
+                      selectableRows: "none",
+                      responsive: "simple",
+                      download: false,
+                      search: false,
+                      print: false,
+                      viewColumns: false,
+                    }}
+                  />
                 </Grid>
               </Box>
             </Box>
           </TabPanel>
-          <TabPanel value="2">
+          <TabPanel value="2" sx={{ textTransform: "uppercase" }}>
             {"<"}sessions log{">"} Tab
           </TabPanel>
-          <TabPanel value="3">
+          <TabPanel value="3" sx={{ textTransform: "uppercase" }}>
             {"<"}time worked{">"} Tab
           </TabPanel>
-          <TabPanel value="4">
+          <TabPanel value="4" sx={{ textTransform: "uppercase" }}>
             {"<"}alerts{">"} Tab
           </TabPanel>
-          <TabPanel value="5">
+          <TabPanel value="5" sx={{ textTransform: "uppercase" }}>
             {"<"}snapshots{">"} Tab
           </TabPanel>
-          <TabPanel value="6">
+          <TabPanel value="6" sx={{ textTransform: "uppercase" }}>
             {"<"}emails{">"} Tab
           </TabPanel>
-          <TabPanel value="7">
+          <TabPanel value="7" sx={{ textTransform: "uppercase" }}>
             {"<"}file transfers{">"} Tab
           </TabPanel>
-          <TabPanel value="8">
+          <TabPanel value="8" sx={{ textTransform: "uppercase" }}>
             {"<"}online meetings{">"} Tab
           </TabPanel>
-          <TabPanel value="9">
+          <TabPanel value="9" sx={{ textTransform: "uppercase" }}>
             {"<"}keystrokes{">"} Tab
           </TabPanel>
         </TabContext>

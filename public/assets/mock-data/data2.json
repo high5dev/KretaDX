@@ -1,0 +1,44 @@
+[
+    {
+        "datetime": "2021-11-21 14:56:35",
+        "computer": "WIN-035KHOR8PER",
+        "url": "slack.exe",
+        "duration": "0:02:26",
+        "webpage": " Slack | ianfransson619 | Morning Shift Corp"
+    },
+    {
+        "datetime": "2021-11-21 14:48:45",
+        "computer": "WIN-035KHOR8PER",
+        "url": "slack.exe",
+        "duration": "0:07:50",
+        "webpage": " Slack | ianfransson619 | Morning Shift Corp"
+    },
+    {
+        "datetime": "2021-11-21 14:48:36",
+        "computer": "WIN-035KHOR8PER",
+        "url": "www.facebook.com",
+        "duration": "0:00:09",
+        "webpage": " (15) Watch | Facebook"
+    },
+    {
+        "datetime": "2021-11-21 14:46:28",
+        "computer": "WIN-035KHOR8PER",
+        "url": "www.facebook.com",
+        "duration": "0:02:08",
+        "webpage": "(15) Facebook"
+    },
+    {
+        "datetime": "2021-11-21 14:42:37",
+        "computer": "WIN-035KHOR8PER",
+        "url": "www.facebook.com",
+        "duration": "0:03:51",
+        "webpage": "(15) Facebook"
+    },
+    {
+        "datetime": "2021-11-21 14:42:34",
+        "computer": "WIN-035KHOR8PER",
+        "url": "www.facebook.com",
+        "duration": "0:00:03",
+        "webpage": "(15) Facebook"
+    }
+]

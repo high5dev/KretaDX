@@ -1,0 +1,497 @@
+﻿[
+  {
+    "datetime": "2021-11-21T14:27:42-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks647",
+    "rule": "Social Media",
+    "action": "SwitchTask",
+    "description": "Visited <b>(15) facebook</b> (<b>https://www.facebook.com</b>)."
+  },
+  {
+    "datetime": "2021-11-21T14:25:41-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks647",
+    "rule": "Social Media",
+    "action": "SwitchTask",
+    "description": "Visited <b>(15) Facebook</b> (<b>https://www.facebook.com</b>)."
+  },
+  {
+    "datetime": "2021-11-21T14:13:34-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks647",
+    "rule": "Social Media",
+    "action": "SwitchTask",
+    "description": "Visited <b>(15) facebook</b> (<b>https://www.facebook.com</b>)."
+  },
+  {
+    "datetime": "2021-11-21T14:11:50-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:11:34-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks647",
+    "rule": "Social Media",
+    "action": "SwitchTask",
+    "description": "Visited <b>New Tab - Google Chrome</b> (<b>facebook.com</b>)."
+  },
+  {
+    "datetime": "2021-11-21T14:10:20-05:0036",
+    "employee": "Ian Fransson53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:09:38-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:09:17-05:0028",
+    "employee": "Brayden Crawford53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:08:10-05:0036",
+    "employee": "Ian Fransson53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:07:34-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:07:07-05:0028",
+    "employee": "Brayden Crawford53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:06:04-05:0036",
+    "employee": "Ian Fransson53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:05:27-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:04:57-05:0028",
+    "employee": "Brayden Crawford53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:03:53-05:0036",
+    "employee": "Ian Fransson53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:03:24-05:0037",
+    "employee": "Donald Jurickova53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:02:57-05:0028",
+    "employee": "Brayden Crawford53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:01:51-05:0036",
+    "employee": "Ian Fransson53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T14:00:54-05:0028",
+    "employee": "Brayden Crawford53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks643",
+    "rule": "Communication task",
+    "action": "SwitchTask",
+    "description": "Used the application <b>slack.exe</b>."
+  },
+  {
+    "datetime": "2021-11-21T13:17:07-05:0012",
+    "employee": "Leo Gross53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks646",
+    "rule": "Emailing task",
+    "action": "SwitchTask",
+    "description": "Visited <b>Mail - leo gross - Outlook - Mozilla Firefox</b> (<b>https://outlook.live.com/mail/0/inbox</b>)."
+  },
+  {
+    "datetime": "2021-11-21T11:46:11-05:007",
+    "employee": "Denis Lee53",
+    "computer": "WIN-035KHOR8PER244",
+    "policy": "Productive Tasks647",
+    "rule": "Social Media",
+    "action": "SwitchTask",
+    "description": "Visited <b>New Tab - Google Chrome</b> (<b>pinterest.com</b>)."
+  },
+  {
+    "datetime": "2021-11-21T11:25:59-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\desktop.ini</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:59-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\financial statement.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\confidential files.xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\profit and loss statement 1.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\rules and regulations.rtf</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\confidential files.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\new confidential.xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\rules and regulations.rtf</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\confidential files.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\profit and loss statement 1.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\financial statement.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\customer's private information.rtf</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\.~lock.new private customer's info.ods#</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\new confidential.xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\confidential files.xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\sensitive files.rtf</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\customer's private information.rtf</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\revenues and expenses.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\sensitive files.rtf</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\.~lock.new private customer's info.ods#</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:58-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\revenues and expenses.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\weekly report for this month of october.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\financial expenses (may 2021).xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\financial expenses (may 2021).xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\financial statement (omega).xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\sales report #1.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\financial statement (omega).xlsx</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:57-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new) - copy\\weekly report for this month of october.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:55-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:53-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)\\sales report #1.ods</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:53-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files (new)</b>."
+  },
+  {
+    "datetime": "2021-11-21T11:25:53-05:0010",
+    "employee": "Kate Sparrow53",
+    "computer": "WIN-035KHOR8PER43",
+    "policy": "Demo Policy1179",
+    "rule": "Accessing management folder",
+    "action": "Warn",
+    "description": "Accessed path <b>\\\\UNKNOWN\\confidential files\\business plan.ods</b>."
+  }
+]
