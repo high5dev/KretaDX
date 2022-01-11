@@ -74,7 +74,7 @@ function Aside() {
               to={menu.to}
               className={pathname === menu.to ? classes.active : ""}
             >
-              <ListItemIcon>{menu.icon}</ListItemIcon>
+              <ListItemIcon sx={{ minWidth: "40px" }}>{menu.icon}</ListItemIcon>
               <ListItemText
                 primary={menu.name}
                 sx={{ textTransform: "uppercase" }}

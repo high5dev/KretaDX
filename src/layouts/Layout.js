@@ -11,7 +11,7 @@ import System from "../pages/system/System";
 import Risk from "../pages/risk/Risk";
 import Aside from "./Aside";
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 export default function PermanentDrawerLeft() {
   return (
