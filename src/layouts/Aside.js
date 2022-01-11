@@ -1,50 +1,90 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
-import Drawer from "@mui/material/Drawer";
-import IconButton from "@mui/material/IconButton";
-import BoltIcon from "@mui/icons-material/Bolt";
 import Typography from "@mui/material/Typography";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import PeopleIcon from "@mui/icons-material/People";
-import SettingsIcon from "@mui/icons-material/Settings";
-import DashboardIcon from "@mui/icons-material/Dashboard";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import {
+  Settings,
+  Dashboard,
+  Bolt,
+  AccessTime,
+  AdminPanelSettings,
+} from "@mui/icons-material";
 import Toolbar from "@mui/material/Toolbar";
-import { Route, Routes, Navigate, Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles({
+  active: {
+    color: "#000000DE",
+    border: "1px solid #1976d2",
+    backgroundColor: "#1976d2",
+    "&:hover": {
+      background: "#1976d2",
+    },
+  },
+});
 
 function Aside() {
+  const { pathname } = useLocation();
+  const classes = useStyles();
+  const menus = [
+    {
+      name: "Dashboard",
+      to: "/dashboard",
+      icon: <Dashboard />,
+    },
+    {
+      name: "Risk",
+      to: "/risk",
+      icon: <Bolt />,
+    },
+    {
+      name: "Settings",
+      to: "/settings",
+      icon: <Settings />,
+    },
+    {
+      name: "Time Tracking",
+      to: "/timetracking",
+      icon: <AccessTime />,
+    },
+    {
+      name: "System",
+      to: "/system",
+      icon: <AdminPanelSettings />,
+    },
+  ];
   return (
-    <div>
+    <>
       <Toolbar>
         <Typography variant="h4">KretaCX</Typography>
       </Toolbar>
+
       <Divider />
+
       <List>
-        <ListItem button component={Link} to="/dashboard">
-          <ListItemIcon>
-            <DashboardIcon />
-          </ListItemIcon>
-          <ListItemText primary="Dashboard" />
-        </ListItem>
-        <ListItem button component={Link} to="/risk">
-          <ListItemIcon>
-            <BoltIcon />
-          </ListItemIcon>
-          <ListItemText primary="Risk" />
-        </ListItem>
-        <ListItem button component={Link} to="/settings">
-          <ListItemIcon>
-            <SettingsIcon />
-          </ListItemIcon>
-          <ListItemText primary="Settings" />
-        </ListItem>
+        {menus.map((menu, index) => (
+          <div key={index}>
+            <ListItem
+              button
+              component={Link}
+              to={menu.to}
+              className={pathname == menu.to ? classes.active : ""}
+            >
+              <ListItemIcon>{menu.icon}</ListItemIcon>
+              <ListItemText
+                primary={menu.name}
+                sx={{ textTransform: "uppercase" }}
+              />
+            </ListItem>
+            <Divider />
+          </div>
+        ))}
       </List>
-    </div>
+    </>
   );
 }
 
